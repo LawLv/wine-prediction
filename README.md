@@ -9,7 +9,7 @@ It demonstrates an end-to-end machine learning system using a **dynamic external
 
 We build a classification system that predicts the **price tier** of a wine based on information commonly found on the bottle label (e.g. country, category, alcohol percentage, volume).
 
-Instead of predicting an exact price, wines are grouped into **four price tiers (Q1–Q4)** within the mainstream market, improving robustness and interpretability.
+Instead of predicting an exact price, wines are grouped into **four price tiers (Q1–Q4)**: [10-120],[120-249],[249-449],[449-1260]SEK within the mainstream market, improving robustness and interpretability.
 
 ---
 
@@ -19,8 +19,6 @@ Instead of predicting an exact price, wines are grouped into **four price tiers 
 - **Access**: Data is fetched programmatically from an external URL (JSON)
 - **Dynamic**: The dataset is maintained and updated by a third-party system
 - **Not Kaggle / Not static files**
-
-This fully satisfies the course requirement for a **Dynamic Data Source**.
 
 ---
 
@@ -86,8 +84,7 @@ streamlit run app.py
 ```
 
 
-## Course Requirements Checklist
-
+## Requirements Checklist
 - Dynamic external data source (non-Kaggle)
 - No pure time-series modeling
 - Clearly defined prediction task
