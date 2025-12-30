@@ -68,7 +68,7 @@ This design supports interpretability and a clear prediction workflow.
   - Predicted price tier (Q1–Q4)
   - Corresponding estimated price range (SEK)
 - Clean, product-style UI with branding and consistent visual design
-
+![Streamlit UI](screenshots/ui.png)
 ---
 
 ## How to Run
