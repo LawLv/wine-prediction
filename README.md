@@ -75,7 +75,7 @@ This design supports interpretability and a clear prediction workflow.
 
 ### 1. Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install xxx(requirments)
 ```
 
 ### 2. Run the Streamlit app
